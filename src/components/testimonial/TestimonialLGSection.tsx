@@ -144,7 +144,7 @@ export default function TestimonialLGSection() {
             </Swiper>
 
             {/* Pagination */}
-            <div className="absolute bottom-4 md:bottom-8 left-1/2 transform -translate-x-1/2 z-30">
+            <div className="absolute bottom-4 md:bottom-18 left-1/2 transform -translate-x-1/2 z-30">
                 <div className="swiper-pagination"></div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import hijamaImage from "@/assets/images/hijamaImage.jpeg"
+import contactImage from "@/assets/images/contactImage.jpg"
 import GetInTouchSection from "@/components/GetInTouchSection"
 import Contact from "@/components/Contact"
 
@@ -6,7 +6,7 @@ const ContactUs = () => {
     return (
         <div className="flex flex-col items-center justify-center">
             <GetInTouchSection
-                imageUrl={hijamaImage}
+                imageUrl={contactImage}
                 title="Contacts"
             />
             <Contact />

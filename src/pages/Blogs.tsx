@@ -2,7 +2,7 @@ import React from 'react'
 import GetInTouchSection from '@/components/GetInTouchSection'
 import BlogsFilter from '@/components/BlogsFilter'
 import BlogCard from '@/components/BlogCard'
-import blogsHeroImage from "@/assets/images/hijamaImage.jpeg"
+import blogsImage from "@/assets/images/blogsImage.jpg"
 import blog1 from "@/assets/images/blog1.png"
 
 const Blogs: React.FC = () => {
@@ -52,7 +52,7 @@ const Blogs: React.FC = () => {
         <div className="flex flex-col items-center justify-center">
             {/* Hero Section */}
             <GetInTouchSection
-                imageUrl={blogsHeroImage}
+                imageUrl={blogsImage}
                 title="BLOGS"
             />
 

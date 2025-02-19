@@ -22,12 +22,12 @@ interface HeroContentProps {
 
 const HeroContent: React.FC<HeroContentProps> = ({ title, buttonText, buttonLink }) => (
     <div className="relative z-10 h-full flex flex-col items-center justify-center text-white">
-        <h1 className="font-brand text-6xl sm:text-8xl mb-8 tracking-[0.06em]">
+        <h1 className="font-brand text-6xl sm:text-7xl md:text-9xl mb-8 tracking-[-0.05em] uppercase text-white">
             {title}
         </h1>
         <Link
             to={buttonLink}
-            className="bg-primary-red hover:bg-primary-hover text-white px-8 py-4 rounded-md transition-colors"
+            className="bg-primary-red hover:bg-primary-hover font-medium md:font-bold text-xl md:text-2xl text-white px-8 py-4 rounded-md transition-colors"
         >
             {buttonText}
         </Link>

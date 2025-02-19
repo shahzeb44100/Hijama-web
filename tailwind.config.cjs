@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
-        brand: ['Bodoni Moda', 'serif']
+        brand: ['Brand', 'serif'],
       },
       colors: {
         "primary-red": "#B02828",

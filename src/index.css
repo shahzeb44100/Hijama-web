@@ -20,13 +20,31 @@
 
   @font-face {
     font-family: 'Brand';
-    src: url('/fonts/Brand.woff2') format('woff2'),
-         url('/fonts/Brand.woff') format('woff'),
-         url('/fonts/Brand.ttf') format('truetype');
+    src: url('/fonts/Brand.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-  }
+}
+
+@font-face {
+  font-family: 'Didot';
+  src: url('/fonts/Didot.woff2') format('woff2'),
+       url('/fonts/Didot.woff') format('woff'),
+       url('/fonts/Didot.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bodoni';
+  src: url('/fonts/Bodoni.woff2') format('woff2'),
+       url('/fonts/Bodoni.woff') format('woff'),
+       url('/fonts/Bodoni.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
   body {
     @apply font-montserrat;
@@ -44,7 +62,7 @@
 /* Adjust the position of pagination bullets container */
 .swiper-pagination {
   position: relative;
-  bottom: -2px !important; /* Adjust this value to move bullets up or down */
+  bottom: 18px !important; /* Adjust this value to move bullets up or down */
 }
 
 /* Style for all pagination bullets */

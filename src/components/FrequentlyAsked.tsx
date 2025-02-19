@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import frequentlyAskedImage from "@/assets/images/frequentlyasked.jpeg"
+import frequentlyAskedImage from "@/assets/images/frequentlyasked.png"
 import { ChevronRight } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 
@@ -50,10 +50,12 @@ const FrequentlyAsked: React.FC = () => {
 
     return (
         <div className="relative w-[calc(100%-5.5rem)] sm:w-full h-full mx-11 my-11 sm:m-0 rounded-xl sm:rounded-none">
-            {/* Background Image */}
+            {/* Background Image with very light overlay */}
             <div
-                className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat rounded-xl sm:rounded-none"
-                style={{ backgroundImage: `url(${frequentlyAskedImage})` }}
+                className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat rounded-xl sm:rounded-none bg-white"
+                style={{
+                    backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(${frequentlyAskedImage})`
+                }}
             />
 
             {/* Content */}
