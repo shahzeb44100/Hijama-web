@@ -1,6 +1,6 @@
 import React from 'react'
 import rukyahInfo from "@/assets/images/rukyahInfo.jpeg"
-import ruqyahImage from '../assets/images/Ruqyah-best.png'
+import ruqyahImage from '@/assets/images/ruqyah-best.png'
 
 const InfoRukyah: React.FC = () => {
     return (
