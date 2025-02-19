@@ -1,0 +1,19 @@
+.testimonial-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .testimonial-gradient {
+        background: linear-gradient(93.93deg, rgba(255, 255, 255, 0.7) 30%, rgba(255, 255, 255, 0) 80%),
+            linear-gradient(184.56deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.9) 90%);
+    }
+}
+
+@media (min-width: 769px) {
+    .testimonial-gradient {
+        background: linear-gradient(93.93deg, #FFFFFF 40.04%, rgba(255, 255, 255, 0) 102.32%),
+            linear-gradient(184.56deg, rgba(255, 255, 255, 0) 50.33%, #FFFFFF 93.06%);
+    }
+}

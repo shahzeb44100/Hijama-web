@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --navbar-height: 7.25rem; /* 116px */
+  }
+
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXp-p7K4KLg.woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Brand';
+    src: url('/fonts/Brand.woff2') format('woff2'),
+         url('/fonts/Brand.woff') format('woff'),
+         url('/fonts/Brand.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  body {
+    @apply font-montserrat;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  @media (max-width: 768px) {
+    :root {
+      --navbar-height: 5.2rem;
+    }
+  }
+}
+
+/* Adjust the position of pagination bullets container */
+.swiper-pagination {
+  position: relative;
+  bottom: -2px !important; /* Adjust this value to move bullets up or down */
+}
+
+/* Style for all pagination bullets */
+.swiper-pagination-bullet {
+  width: 18px !important;
+  height: 18px !important;
+  background-color: #F1A7A7 !important; /* Color for inactive bullets */
+  opacity: 1;
+}
+
+/* Style for active pagination bullet */
+.swiper-pagination-bullet-active {
+  background-color: #B02828 !important; /* Color for active bullet */
+}

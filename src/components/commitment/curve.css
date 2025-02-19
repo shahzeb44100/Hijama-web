@@ -1,0 +1,25 @@
+.gradient-bg {
+    background: linear-gradient(180deg, #EF5656 0%, #000000 222.67%);
+}
+
+.curve-bottom {
+  width: 100%;
+  height: 100px; /* Adjust height for a smoother curve */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* background-color: #EF5656; */
+  border-radius: 0 0 50% 50% / 0 0 100px 100px; /* Ensures smooth downward curve */
+  z-index: 5;
+}
+
+.curve-top {
+  width: 100%;
+  height: 100px; /* Adjust height to balance the bottom curve */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* background-color: #EF5656; */
+  border-radius: 50% 50% 0 0 / 100px 100px 0 0; /* Ensures smooth upward curve */
+  z-index: 5;
+}
