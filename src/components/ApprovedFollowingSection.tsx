@@ -13,7 +13,7 @@ const ApprovedFollowingSection: React.FC = () => {
             <img
                 src={ApprovedFollowingImage}
                 alt="approved-following"
-                className="w-full max-w-[90%] md:max-w-[80%] lg:max-w-[70%] h-auto"
+                className="w-full h-auto"
             />
         </section>
     )

@@ -4,7 +4,7 @@ import ruqyahImage from '@/assets/images/ruqyah-best.png'
 
 const InfoRukyah: React.FC = () => {
     return (
-        <div className="relative w-full h-full lg:h-screen block">
+        <div className="relative w-full h-full pb-0 lg:pb-16 block">
             {/* Background Image */}
             <div
                 className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"

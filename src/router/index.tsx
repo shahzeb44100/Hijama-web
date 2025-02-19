@@ -6,10 +6,12 @@ import Ruqyah from '../pages/Ruqyah'
 import Hijama from '../pages/Hijama'
 import Blogs from '../pages/Blogs'
 import ContactUs from '../pages/ContactUs'
+import ScrollToTop from '../components/ScrollToTop'
 
 export const RouterProvider = () => {
     return (
         <BrowserRouter>
+            <ScrollToTop />
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
