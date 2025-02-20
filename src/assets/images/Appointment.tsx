@@ -38,7 +38,7 @@ const Appointment: React.FC = () => {
         gender: 'Male'
     }
 
-    const handleSubmit = (values: typeof initialValues, { setSubmitting }: any) => {
+    const handleSubmit = (values: typeof initialValues, { setSubmitting }: { setSubmitting: (isSubmitting: boolean) => void }) => {
         console.log(values)
         // Handle form submission here
         setSubmitting(false)
