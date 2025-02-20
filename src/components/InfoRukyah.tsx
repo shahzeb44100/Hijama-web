@@ -1,6 +1,6 @@
 import React from 'react'
 import rukyahInfo from "@/assets/images/rukyahInfo.jpeg"
-import ruqyahImage from '../assets/images/ruqyah-best.png'
+import ruqyahBestImg from '@/assets/images/ruqyahBestImg.png'
 
 const InfoRukyah: React.FC = () => {
     return (
@@ -64,7 +64,7 @@ const InfoRukyah: React.FC = () => {
                             {/* Right Section - Quran Image */}
                             <div className="w-full lg:w-[42%]">
                                 <img
-                                    src={ruqyahImage}
+                                    src={ruqyahBestImg}
                                     alt="Quran"
                                     className="w-full lg:[429px] h-full lg:h-[537px] rounded-2xl"
                                 />
