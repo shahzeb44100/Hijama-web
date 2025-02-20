@@ -22,7 +22,7 @@ const testimonials = [
 
 const TestimonialMobileSection = () => {
     return (
-        <div className="flex flex-col gap-10 lg:hidden p-11">
+        <div className="flex flex-col gap-16 lg:hidden p-11">
             {testimonials.map((testimonial, index) => (
                 <div
                     key={index}

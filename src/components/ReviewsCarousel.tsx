@@ -27,23 +27,24 @@ const ReviewsCarousel = () => {
 
     return (
         <div className="py-20 bg-white text-center">
-            <h4 className="text-lg text-red-600 font-medium">Customer's testimonials</h4>
-            <h2 className="text-3xl md:text-4xl font-bold text-red-800 mt-2">What are they Saying?</h2>
+            <div className="mx-11 sm:mx-0">
+                <h4 className="text-lg text-red-600 font-medium">Customer's testimonials</h4>
+                <h2 className="text-3xl md:text-4xl font-bold text-red-800 mt-2">What are they Saying?</h2>
 
-            <div className="mt-6">
-                <h3 className="text-lg font-bold">EXCELLENT</h3>
-                <div className="flex justify-center mt-1">
-                    {[...Array(5)].map((_, index) => (
-                        <FaStar key={index} className="text-yellow-500 text-xl" />
-                    ))}
-                </div>
-                <p className="text-gray-700 mt-1">Based on 251 Reviews</p>
-                <div className="mt-2 flex justify-center">
-                    <GoogleIcon />
+                <div className="mt-6">
+                    <h3 className="text-lg font-bold">EXCELLENT</h3>
+                    <div className="flex justify-center mt-1">
+                        {[...Array(5)].map((_, index) => (
+                            <FaStar key={index} className="text-yellow-500 text-xl" />
+                        ))}
+                    </div>
+                    <p className="text-gray-700 mt-1">Based on 251 Reviews</p>
+                    <div className="mt-2 flex justify-center">
+                        <GoogleIcon />
+                    </div>
                 </div>
             </div>
-
-            <div className="relative mt-8 w-full px-24">
+            <div className="relative mt-8 w-full px-8 sm:px-14 lg:px-24">
                 <Swiper
                     modules={[Navigation, Pagination, Autoplay]}
                     spaceBetween={20}

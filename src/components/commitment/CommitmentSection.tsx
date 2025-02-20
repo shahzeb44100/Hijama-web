@@ -6,8 +6,8 @@ const CommitmentSection = () => {
   return (
     <section className="flex flex-col gap-5 relative gradient-bg 
                         -mt-8 sm:-mt-12 md:-mt-16 lg:-mt-24 
-                        rounded-t-[20%_5%] sm:rounded-t-[40%_7%] md:rounded-t-[45%_8%] lg:rounded-t-[50%_10%]
-                        rounded-b-[20%_5%] sm:rounded-b-[40%_7%] md:rounded-b-[45%_8%] lg:rounded-b-[50%_10%]
+                        rounded-3xl sm:rounded-t-[40%_7%] md:rounded-t-[45%_8%] lg:rounded-t-[50%_10%]
+                         sm:rounded-b-[40%_7%] md:rounded-b-[45%_8%] lg:rounded-b-[50%_10%]
                         text-white px-9 sm:px-8 lg:px-32 lg:py-28 py-16 mb-6 md:mb-10 lg:mb-20">
       {/* Mission Section */}
       <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-20 mb-10">

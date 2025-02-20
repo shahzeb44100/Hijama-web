@@ -54,7 +54,7 @@ const Appointment: React.FC = () => {
 
             {/* Content */}
             <div className="relative z-10 w-full h-full flex items-center justify-center px-6 py-24">
-                <div className="bg-white rounded-2xl shadow-lg py-10 px-5 sm:px-16 lg:px-32 w-full lg:w-[80%]">
+                <div className="bg-white rounded-2xl shadow-lg py-10 px-8 sm:px-16 lg:px-32 w-full lg:w-[80%]">
                     <h1 className="text-primary-red text-3xl sm:text-4xl md:text-5xl lg:text-8xl font-bold text-center mb-4 tracking-[-0.05em]">
                         Appointment
                     </h1>

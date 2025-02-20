@@ -44,9 +44,9 @@ export default function RuqyahHeroSection() {
                         {/* Mobile/Tablet Layout */}
                         <div className="px-11 lg:hidden flex flex-col items-start lg:items-center text-left lg:text-center sm:px-8 md:px-14">
                             <div className="lg:mb-8 mb-4 sm:w-3/4 md:w-2/3">
-                                <div className="flex justify-center gap-2 items-center rounded-[20px] bg-primary-red px-6 sm:px-6 py-2 text-white shadow-sm">
-                                    <p className="text-xs md:text-xl sm:text-lg font-normal lg:font-medium">Founder & Youth Club</p>
-                                    <p className="text-xs md:text-xl sm:text-lg font-normal lg:font-semibold">Abdul Baseer Khan</p>
+                                <div className="flex flex-wrap justify-center gap-2 items-center rounded-full bg-primary-red px-6 sm:px-6 py-2 text-white shadow-sm">
+                                    <p className="text-xs md:text-xl sm:text-lg font-normal lg:font-medium text-nowrap">Founder & Youth Club</p>
+                                    <p className="text-xs md:text-xl sm:text-lg font-medium lg:font-semibold text-nowrap">Abdul Baseer Khan</p>
                                 </div>
                             </div>
 

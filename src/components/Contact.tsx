@@ -17,7 +17,7 @@ const contactData = {
 
 const Contact: React.FC = () => {
     return (
-        <div className="bg-primary-red sm:my-32 my-8 rounded-xl sm:rounded-3xl px-4 sm:px-[100px] py-[68px] text-white">
+        <div className="bg-primary-red mx-11 sm:mx-0 sm:my-32 my-8 rounded-xl sm:rounded-3xl px-4 sm:px-[100px] py-[68px] text-white">
             <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
                 <h1 className="text-4xl sm:text-6xl font-bold mb-4">
                     Contacts

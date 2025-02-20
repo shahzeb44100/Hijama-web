@@ -50,11 +50,12 @@ const FrequentlyAsked: React.FC = () => {
 
     return (
         <div className="relative w-[calc(100%-5.5rem)] sm:w-full h-full mx-11 my-11 sm:m-0 rounded-xl sm:rounded-none">
-            {/* Background Image with very light overlay */}
+            {/* Background Image with darker white overlay */}
             <div
                 className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat rounded-xl sm:rounded-none bg-white"
                 style={{
-                    backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(${frequentlyAskedImage})`
+                    backgroundImage: `url(${frequentlyAskedImage})`,
+                    backgroundColor: '#FFFFFF66'  // Changed from 8A to 66 (about 40% opacity) for darker effect
                 }}
             />
 

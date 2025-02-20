@@ -24,7 +24,7 @@ const InfoRukyah: React.FC = () => {
                 {/* Main Content */}
                 <div className="flex-1 flex items-start justify-center">
                     <div className="max-w-7xl w-full mx-auto px-6">
-                        <div className="flex flex-col-reverse lg:flex-row justify-between items-start gap-20 px-10 sm:px-16 lg:px-28">
+                        <div className="flex flex-col-reverse lg:flex-row justify-between items-start gap-5 sm:gap-10 lg:gap-20 px-10 sm:px-16 lg:px-28">
                             {/* Left Section - Text */}
                             <div className="text-white text-left w-full lg:w-[58%] my-8 lg:mt-0">
                                 <h2 className="text-4xl text-center lg:text-left font-bold mb-4 leading-[53px] tracking-[-0.03em]">

@@ -16,7 +16,7 @@ const AhadeesSection: React.FC = () => {
                                 <img
                                     src={markImage}
                                     alt="mark"
-                                    className="absolute -right-4 -left-4 -bottom-2 w-[calc(100%+2rem)]"
+                                    className="absolute -right-4 left-0 md:-left-4 bottom-0 sm:-bottom-2 w-[calc(100%+2rem)]"
                                 />
                             </div>
                         </div>
