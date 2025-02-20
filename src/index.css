@@ -20,7 +20,9 @@
 
   @font-face {
     font-family: 'Brand';
-    src: url('/fonts/Brand.ttf') format('truetype');
+    src: url('../public/fonts/Brand.woff2') format('woff2'),
+         url('../public/fonts/Brand.woff') format('woff'),
+         url('../public/fonts/Brand.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
